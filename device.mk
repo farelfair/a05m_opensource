@@ -62,11 +62,6 @@ PRODUCT_PACKAGES += \
     init.recovery.mt6768.rc \
     init.recovery.samsung.rc \
 
-# VINTF Metadata
-ODM_MANIFEST_FILES += \
-    vendor/samsung/a05m/proprietary/odm/etc/vintf/manifest_dsds.xml \
-    vendor/samsung/a05m/proprietary/odm/etc/vintf/manifest_qsqs.xml \
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.ramplus:$(TARGET_COPY_OUT_RAMDISK)/fstab.ramplus
 
